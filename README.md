@@ -9,7 +9,7 @@ _4-Sing-up_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://github.com/linajja/3-mergaite
+Site published at: https://linajja.github.io/4-Sign-up/
 
 Design: [Sing-up](https://cdn.discordapp.com/attachments/850245533838868480/850246368214908970/day1dr.png)
 
