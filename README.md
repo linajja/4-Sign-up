@@ -15,9 +15,11 @@ Design: [Sing-up](https://cdn.discordapp.com/attachments/850245533838868480/8502
 
 ## Project features
 
-- Github pages 
-- CSS
-- Image
+- Github pages (multi-page)
+- HTML form
+- CSS bacjground images
+- CSS position absolute
+- CSS blur effect
 
 ## Authors
 
