@@ -49,3 +49,7 @@ main{
     margin-top: 20px;
     background-color: #ffffff;
 }
+.close {
+    display: inline-block;
+    background-color: red;
+}
