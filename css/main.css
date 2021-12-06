@@ -22,6 +22,24 @@ main{
     padding: 40px;
     margin-top: 40px;
     background-color:#494eac;
+}
+.main-title {
+    font-size: 32px;
+    font-weight: normal;
+    font-size: 32px;
+    font-weight: normal;
+
+}
+.bottom-link {
+    display: inline-block;
+    width: 100%;
+
+}
+.bottom-link > .linnk {
+    color: #ffffff;
+    font-size: 14px;
+}
+.bottom-link > .symbol {
 
 }
 .right-column {
@@ -30,8 +48,4 @@ main{
     padding: 60px;
     margin-top: 20px;
     background-color: #ffffff;
-}
-.augalas > .pomidoras {
-    
-
 }
