@@ -18,14 +18,13 @@ main{
     width: 40%;
     float: left;
     padding: 40px;
-    margin-top: 40px;
+    margin-top: 20px;
     background-color:#494eac;
     background-image: url(../img/hill.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     color: #ffffff;
-    height: 450px;
 }
 .main-title {
     font-size: 32px;
@@ -61,15 +60,17 @@ main{
     display: inline-block;
     width: 100%;
 }
-.form-row {
+.form > .form-row {
     display: inline-block;
     width: 100%;
+    margin-bottom: 30px;
 }
-.label {
+.form > .form-row > label {
     display: inline-block;
     width: 100%;
+    margin-top: 5px;
 }
-.input {
+.form > .form-row > input {
     display: inline-block;
     width: 100%;
     font-size: 20px;
