@@ -1,20 +1,21 @@
 body,
 body * {
-    box-sizing: border-box;
-    margin-left: 0;
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
     vertical-align: top;
 }
-body{
+body {
     background-color: #00afcc;
 }
-main{
+.container {
+
     display: inline-block;
     width: 800px;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: calc(50% - 400px);
 }
-.left-column{
+.left-column {
     width: 40%;
     float: left;
     padding: 40px;
@@ -27,10 +28,10 @@ main{
     color: #ffffff;
 }
 .main-title {
-    font-size: 32px;
+    display: inline-block;
+    width: 100%;
     font-weight: normal;
     font-size: 32px;
-    font-weight: normal;
 
 }
 .bottom-link {
@@ -38,40 +39,35 @@ main{
     width: 100%;
 
 }
-.bottom-link > .linnk {
+.bottom-links > .link {
     color: #ffffff;
     font-size: 14px;
+
 }
 .right-column {
     width: 60%;
     float: left;
     padding: 60px;
-    margin-top: 20px;
     background-color: #ffffff;
 }
 .close {
     display: inline-block;
     
 }
-.form {
+.right-column span {
     display: inline-block;
-    width: 100%;
+    padding: 15px;
+    line-height: 20px;
+    margin-left: 15px;
+    font-size: 15px;
 }
-.form > .form-row {
+ .right-column a {
     display: inline-block;
-    width: 100%;
-    margin-bottom: 30px;
-}
-.form > .form-row > label {
-    display: inline-block;
-    width: 100%;
-    margin-top: 5px;
-}
-.form > .form-row > input {
-    display: inline-block;
-    width: 100%;
-    font-size: 20px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-}
+    padding: 15px;
+    line-height: 20px;
+    text-decoration: none;
+ }
+
+ .right-column a:hover {
+    text-decoration: underline;
+ }
