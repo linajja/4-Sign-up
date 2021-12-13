@@ -21,13 +21,13 @@
     width: 100%;
     font-size: 20px;
     line-height: 40px;
-    border-top: 0px;
+    border: none;
     border-bottom: 2px solid #ccc;
 }
 
 .form > .form-row > input:focus {
 
-    outline: violet solid 1px;
+    outline: violet dotted 1px;
 }   
 
 .form input::placeholder {
