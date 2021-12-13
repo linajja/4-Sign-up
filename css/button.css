@@ -16,7 +16,7 @@
     border-radius: 25px;
     border: none;
     cursor: pointer;
-
+}
 .btn:hover {
     background: rgb(213, 35, 65);
     background: linear-gradient(
