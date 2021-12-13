@@ -8,8 +8,7 @@
     width: 100%;
     margin-bottom: 30px;
 
-.form > .form-row:last-of-type {
-
+.form > .form-row > last-of-type {
     margin-bottom: 0;
 }
 .form > .form-row > label {
@@ -22,7 +21,7 @@
     width: 100%;
     font-size: 20px;
     line-height: 40px;
-    border: none;
+    border-top: 0px;
     border-bottom: 2px solid #ccc;
 }
 
@@ -33,6 +32,5 @@
 
 .form input::placeholder {
     color: #999;
-    font-weight: bold;
     font-style: italic;
 }
