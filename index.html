@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up</title>
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="72x72" href=".favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link rel="short icon" href="./favicon.ico" type="image/x-icon">
     <!--components-->
-    <link rel="stylesheet" href="./css/buttom.css">
+    <link rel="stylesheet" href="./css/button.css">
     <link rel="stylesheet" href="./css/form.css">
 
     <!--custom styles-->
@@ -22,10 +23,10 @@
 
 </head>
 <body>
- <img src="./img/hill.png" alt="">
+ <div class="background-div"></div>
  <main class="container">
     <div class="left-column">
-        <h2 class="main-title">Sing up</h2>
+        <h1 class="main-title">Sing up</h1>
         <div class="bottom-links">
            <a class="link" href="#">Privacy policy</a>
            <span class=""symbol">&amp;</span>
@@ -37,19 +38,19 @@
          <form class="form">
              <div class="form-row">
                   <label for="usename">User name</label>
-                  <input id="username" type="text" placeholder="Your username..." required ">
+                  <input id="username" type="text" placeholder="Your username..." required autocomplete="off">
              </div>
              <div class="form-row">
                     <label for="email">Email</label>
-                    <input id="email" type="email" placeholder="Your email..." required>
+                    <input id="email" type="email" placeholder="Your email..." required autocomplete="email">
              </div>
              <div class="form-row">
                     <label for="pass">Password</label>
-                    <input id="pass" type="password" placeholder="Password..." required>
+                    <input id="pass" type="password" placeholder="Password..." required autocomplete="new-password">
              </div>
              <div class="form-row">
-                    <label for="re-pass">Reapet password</label>
-                    <input id="re-pass" type="password" placeholder="Reapet password..." required>
+                    <label for="re-pass">Repeat Password</label>
+                    <input id="re-pass" type="password" placeholder="Repeat password..." required autocomplete="new-password">
              </div>
              <div class="form-row">
                   <button class="btn" type="submit">Register now</button>
