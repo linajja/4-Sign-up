@@ -1,0 +1,139 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+     background-color: rgb (73, 76, 154);
+    background: linear-gradient(
+        41deg,
+        rgba(73, 76, 154, 1) 0%,
+        rgb(72, 117, 201) 100%
+      );
+  
+    position: relative;
+    height: 100vh;
+}
+
+.background-div {
+    height: 100%;
+    background-image: url(../img/hill.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(1,5rem);
+  
+}
+
+.background-div {
+    height: 100%;
+    background-image: url(../img/hill.png);
+    background-position: center;
+    background-repeat: no repeat;
+    background-size: cover;
+    filter: blur(1,5rem);
+}
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: blur(1,5rem);
+  
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: blur(1,5rem);
+}
+
+.container {
+
+    display: inline-block;
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.left-column {
+    width: 40%;
+    float: left;
+    padding: 40px;
+    background-color:#494eac;
+    background-image: url(../img/hill.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
+}
+.main-title {
+    display: inline-block;
+    width: 100%;
+    font-weight: normal;
+    font-size: 32px;
+
+}
+.bottom-links {
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    right: 40px;
+
+}
+.bottom-links > .link {
+    color: #ffffff;
+    font-size: 14px;
+
+}
+.right-column {
+    width: 60%;
+    float: right;
+    padding: 60px;
+    background-color: #ffffff;
+    position: relative;
+}
+.close {
+    width: 60px;
+    height: 60px;
+    font-size: 35px;
+    line-height: 54px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+.right-column span {
+    display: inline-block;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 20px;
+    margin-left: 15px;
+    font-size: 18px;
+}
+ .right-column a {
+    display: inline-block;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 20px;
+    font-size: 18px;
+    text-decoration: none;
+ }
+
+ .right-column a:hover {
+    text-decoration: underline;
+ }
